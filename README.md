@@ -1,37 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Freelance Work Management System (FWMS)
 
-## Getting Started
+FWMS is a **hands-on workshop project** designed to help developers learn how to **collaborate effectively on a real-world product** using a **clear architecture, well-defined responsibilities, and structured workflows**.
 
-First, run the development server:
+The project simulates a production-ready system while focusing on **organization, clean separation of concerns, and teamwork** rather than just feature implementation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Workshop Goals
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This repository exists to help developers:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Work together using a **shared product vision**
+- Understand how **requirements translate into architecture**
+- Practice **clean, scalable project structure**
+- Learn **role-based access control** in real applications
+- Build features incrementally using **Agile principles**
 
-## Learn More
+> FWMS is not just a task management app — it is a **collaborative learning environment**.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ What You Will Learn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Designing systems from **BRD → PRD → SRS**
+- Structuring frontend & backend codebases for teamwork
+- Implementing **project-based authorization**
+- Managing shared task ownership
+- Building dashboards driven by business logic
+- Writing clean, maintainable, and scalable code
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧠 Product Concept
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Freelance-Work-Management-System
+FWMS is a **project-centric work management system** for freelancers and small teams.
+
+Unlike client-centric tools, FWMS organizes work **around projects**, making it an excellent case study for:
+
+- Clear domain modeling
+- Permission boundaries
+- Shared responsibility tracking
+- Real-world collaboration challenges
+
+---
+
+## 🏗️ System Architecture
+Frontend (Web Application)
+↓ REST API
+Backend (Auth & Business Logic)
+↓
+Relational Database
+
+
+### Architecture Principles
+
+- Clear separation of concerns
+- Feature-based modular structure
+- Centralized domain logic
+- Explicit ownership & permissions
+- Scalable by design (even in MVP)
+
+---
+
+## 🗂️ Core Domain Entities
+
+- User
+- Project
+- Project Membership
+- Role
+- Task
+- Task Participant
+
+Each entity exists to **teach proper domain modeling** in collaborative environments.
+
+
