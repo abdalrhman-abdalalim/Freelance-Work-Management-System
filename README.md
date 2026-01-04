@@ -1,4 +1,4 @@
-# 🚀 Freelance Work Management System (FWMS)
+# Freelance Work Management System (FWMS)
 
 FWMS is a **hands-on workshop project** designed to help developers learn how to **collaborate effectively on a real-world product** using a **clear architecture, well-defined responsibilities, and structured workflows**.
 
@@ -6,7 +6,7 @@ The project simulates a production-ready system while focusing on **organization
 
 ---
 
-## 🎯 Workshop Goals
+##  Workshop Goals
 
 This repository exists to help developers:
 
@@ -20,7 +20,7 @@ This repository exists to help developers:
 
 ---
 
-## ✨ What You Will Learn
+##  What You Will Learn
 
 - Designing systems from **BRD → PRD → SRS**
 - Structuring frontend & backend codebases for teamwork
@@ -31,7 +31,7 @@ This repository exists to help developers:
 
 ---
 
-## 🧠 Product Concept
+##  Product Concept
 
 FWMS is a **project-centric work management system** for freelancers and small teams.
 
@@ -44,7 +44,7 @@ Unlike client-centric tools, FWMS organizes work **around projects**, making it 
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 Frontend (Web Application)
 ↓ REST API
 Backend (Auth & Business Logic)
@@ -62,7 +62,7 @@ Relational Database
 
 ---
 
-## 🗂️ Core Domain Entities
+##  Core Domain Entities
 
 - User
 - Project
