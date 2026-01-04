@@ -73,4 +73,62 @@ Relational Database
 
 Each entity exists to **teach proper domain modeling** in collaborative environments.
 
+-- 
+## Folder Structure 
+src/
+├── modules/
+│   └── public-website/
+│       ├── screens/
+│       │   └── LandingPageScreen.tsx
+│       ├── features/
+│       │   ├── HeroSection/
+│       │   │   ├── HeroSection.tsx
+│       │   │   ├── index.ts
+│       │   │   └── components/
+│       │   │       ├── CTAButtons.tsx
+│       │   │       └── AnimatedBackground.tsx
+│       │   ├── ValueProposition/
+│       │   │   ├── ValueProposition.tsx
+│       │   │   ├── index.ts
+│       │   │   └── components/
+│       │   │       ├── ValueCard.tsx
+│       │   │       └── StatsCounter.tsx
+│       │   ├── HowItWorks/
+│       │   │   ├── HowItWorks.tsx
+│       │   │   ├── index.ts
+│       │   │   └── components/
+│       │   │       ├── StepCard.tsx
+│       │   │       └── InteractiveDemo.tsx
+│       │   └── Testimonials/
+│       │       ├── Testimonials.tsx
+│       │       ├── index.ts
+│       │       └── components/
+│       │           └── TestimonialCard.tsx
+│       ├── models/
+│       │   └── api.types.ts
+│       └── index.ts
+├── shared/
+│   ├── ui/
+│   │   ├── buttons/
+│   │   │   ├── GradientButton.tsx
+│   │   │   ├── PrimaryButton.tsx
+│   │   │   └── index.ts
+│   │   ├── cards/
+│   │   │   ├── GlassCard.tsx
+│   │   │   └── index.ts
+│   │   ├── typography/
+│   │   │   ├── AnimatedText.tsx
+│   │   │   └── index.ts
+│   │   └── index.ts
+│   ├── layout/
+│   │   ├── PublicLayout.tsx
+│   │   ├── Footer.tsx
+│   │   └── index.ts
+│   └── seo/
+│       ├── MetaTags.tsx
+│       └── index.ts
+└── app/
+    ├── layout.tsx
+    ├── page.tsx
+    └── globals.css
 
