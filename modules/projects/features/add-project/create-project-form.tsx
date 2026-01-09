@@ -13,7 +13,7 @@ import {
 	createProject_defaultValues,
 	createProjectSchema,
 	TCreateProjectInput,
-} from './validation/create-project.validation';
+} from './validation/create-project.schema';
 
 export default function CreateProjectForm() {
 	const form = useForm<TCreateProjectInput>({

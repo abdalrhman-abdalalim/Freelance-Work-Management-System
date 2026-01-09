@@ -8,14 +8,11 @@ import {
 } from '@/components/ui/breadcrumb';
 // import { CreateProjectForm } from './create-project-form';
 import dynamic from 'next/dynamic';
-import LoadingSquare from '../../components/loading-square';
+import LoadingSquare from '../../components/states/loading-square';
 
 // dynamic import
 
-const CreateProjectForm = dynamic(() => import('./create-project-form'), {
-	// ssr: false,
-	loading: () => <LoadingSquare />,
-});
+const CreateProjectForm = dynamic(() => import('./create-project-form'), { loading: () => <LoadingSquare /> });
 
 export default function CreateProjectScreen() {
 	return (

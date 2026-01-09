@@ -1,18 +1,7 @@
-import {
-	Breadcrumb,
-	BreadcrumbItem,
-	BreadcrumbLink,
-	BreadcrumbList,
-	BreadcrumbPage,
-	BreadcrumbSeparator,
-} from '@/components/ui/breadcrumb';
-import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
-import { Plus } from 'lucide-react';
-import Link from 'next/link';
-import { projectsData } from './data';
+import { projectsData } from '../../data';
 
-export default function ProjectsScreenSkeleton() {
+export default function ProjectsListSkeleton() {
 	return (
 		<div className='flex flex-col gap-6'>
 			{/* <Breadcrumb>
